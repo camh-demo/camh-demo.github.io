@@ -99,11 +99,12 @@ box-sizing: border-box;         /* Opera/IE 8+ */}
 	line-height: 1.6em;
 }
 
-.wrapper{ position:relative; width:300px; margin:auto; }
-.wrapper .columnL{ float:left; width:70%; }
-.wrapper .columnR{ float:left; width:15%; padding-left:15%; }
-.wrapper .columnR input{ width:100%; text-align:center; }
-
+.wrapper{  width:100%; text-align:center; }
+.wrapper .columnL{ float:left; width:40%; }
+.wrapper .columnC{ display: inline-block; margin:0 auto; width:40%}
+.wrapper .columnR{ float:right; width:20%;  }
+.wrapper .columnR input{ width:40%; text-align:center; border: none; background: transparent; }
+.wrapper .columnR label{width:60%; font : .9em "typewriter", sans-serif; font-weight: bold;}
 
 @-webkit-viewport{width:device-width}
 @-moz-viewport{width:device-width}
